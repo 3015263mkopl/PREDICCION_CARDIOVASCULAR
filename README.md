@@ -47,7 +47,7 @@ Matriz de confusión en prueba: 29 verdaderos negativos, 3 falsos positivos, 6 f
 La exactitud (0.85) supera el umbral de revisión de 0.70. Aun así se revisó el desempeño por clase y la estabilidad:
 
 - El modelo no detecta 6 de los 28 pacientes enfermos del conjunto de prueba (21 %), lo cual es relevante en un contexto médico.
-- Los resultados de validación cruzada son consistentes con los de prueba y no hay indicios de sobreajuste.
+- El modelo rinde mejor en entrenamiento que en validación cruzada (exactitud 0.923 frente a 0.806, recall 0.890 frente a 0.751 y ROC-AUC 0.978 frente a 0.891), lo que indica un sobreajuste moderado. El resultado en prueba (exactitud 0.850) queda algo por encima de la validación cruzada, por lo que el rendimiento esperado en pacientes nuevos es más cercano a 0.80 que a 0.85.
 - El recall varía bastante entre particiones (desviación de 0.114) y el conjunto de prueba es pequeño (60 pacientes): un solo paciente cambia el recall en 3.6 puntos porcentuales.
 
 ### Cambios respecto al segundo corte
