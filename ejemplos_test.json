@@ -1,0 +1,68 @@
+[
+  {
+    "id": 295,
+    "descripcion": "Registro 295 del conjunto de prueba",
+    "entradas": {
+      "age": 41.0,
+      "trestbps": 120.0,
+      "chol": 157.0,
+      "thalach": 182.0,
+      "oldpeak": 0.0,
+      "sex": 1.0,
+      "cp": 2.0,
+      "fbs": 0.0,
+      "restecg": 0.0,
+      "exang": 0.0,
+      "slope": 1.0,
+      "ca": 0.0,
+      "thal": 3.0
+    },
+    "real": 0,
+    "prediccion_notebook": 0,
+    "probabilidad_notebook": 0.08745212148432811
+  },
+  {
+    "id": 23,
+    "descripcion": "Registro 23 del conjunto de prueba",
+    "entradas": {
+      "age": 58.0,
+      "trestbps": 132.0,
+      "chol": 224.0,
+      "thalach": 173.0,
+      "oldpeak": 3.2,
+      "sex": 1.0,
+      "cp": 3.0,
+      "fbs": 0.0,
+      "restecg": 2.0,
+      "exang": 0.0,
+      "slope": 1.0,
+      "ca": 2.0,
+      "thal": 7.0
+    },
+    "real": 1,
+    "prediccion_notebook": 1,
+    "probabilidad_notebook": 0.5187848608431846
+  },
+  {
+    "id": 66,
+    "descripcion": "Registro 66 del conjunto de prueba",
+    "entradas": {
+      "age": 60.0,
+      "trestbps": 140.0,
+      "chol": 185.0,
+      "thalach": 155.0,
+      "oldpeak": 3.0,
+      "sex": 1.0,
+      "cp": 3.0,
+      "fbs": 0.0,
+      "restecg": 2.0,
+      "exang": 0.0,
+      "slope": 2.0,
+      "ca": 0.0,
+      "thal": 3.0
+    },
+    "real": 1,
+    "prediccion_notebook": 0,
+    "probabilidad_notebook": 0.46135865373077295
+  }
+]
